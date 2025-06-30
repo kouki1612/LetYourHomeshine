@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letyourhomeshine-Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header class="hero">
+        <video autoplay muted loop class="background-video">
+            <source src="videos\OBGF0613.MP4" type="video/MP4">
+        </video>
+     <div class="navbar">
+         <a href="index.html" class="logo">
+            <img src="Pink and Black Modern Initials Logo Design (2).png" alt="Logo LetYourHomeshine">
+            <span>LetYourHomeshine</span>
+         </a>
+          <div class="nav-right">
+            <div class="search-bar" id="zone-recherche">
+                <input type="text" placeholder="recherche d'inspirations" id="input-recherche">
+                <button id="btn-recherche" title="Recherche"><i class="fas fa-search"></i> </button>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-heart" id="btn-favoris" title="Favoris">
+                    <span id="compteur-favoris">0</span>
+                </i>   
+            </div>
+          </div>
+          
+           <nav >
+                <ul class="menu">
+                    <li><a href="index.html">Accueil-</a></li>
+                    <li><a href="about.html">A propos-</a></li>
+                    <li><a href="gallery.html"> Inspirez-vous</a></li>
+                </ul>
+            </nav>
+            <div class="burger" id="burger">
+                ☰
+            </div>
+     </div>
+     <div class="hero-content">
+        <h1 class="animated-title">Bienvenue dans l'univers home deco LetYourHomeshine</h2>
+        <p class="animated-subtitle">Laissez votre interieur réveler votre personnalité</p>
+        <a href="gallery.html"class="cta-button">Explorez</a>
+       </div>
+ </header>
+    <main>
+        <section class="intro">
+            <h2 class="section-title">Nos engagements</h2>
+            <div class="engagements-container">
+                <div class="engagement-card">
+                 <img src="images\qualite.PNG" alt="Qualité">
+                 <h3>Qualité</h3>
+                 <p>les matériaux et objets déco sont qualitatifs pour un intérieur qui dure</p>
+                </div>
+                <div class="engagement-card">
+                    <img src="images\originalite.PNG" alt="originalité">
+                    <h3>originalité</h3>
+                    <p>Chaque projet est unique, chaque déco a sa propre personnalité.Sortez des sentiers battus!</p>
+                </div>
+                <div class="engagement-card">
+                    <img src="images\simplicite.PNG" alt="Simplicité">
+                    <h3>Simplicité</h3>
+                    <p>Des solutions accéssibles, pratiques et belles pour tous les espaces de vie</p>
+                </div>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Restez inspiré(e)!</h2>
+            <p>Recevez nos idées déco, astuces et nouveautés chaque mois.</p>
+            <form id="newsletter-form" class="newsletter-form" >
+                <input type="email" id="newsletter-email" placeholder="Votre adresse email" required>
+                <button type="submit">S'abonner</button> 
+                <div id="confirmation-message" style="display: none;" class="hidden">Merci pour votre abonnement!</div>
+            </form>
+            <p id="newsletter-message" class="newsletter-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <footer class="footer">
+            <div class="footer-contenair">
+                <div class="footer-column brand">
+                    <a href="index.html">
+                        <span>LetYourHomeshine</span>
+                    </a>
+                    <p>Design, confort et originalité pour votre intérieur</p>
+                </div>
+        
+                <div class="footer-column socials">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                         
+                        <a href="https://www.instagram.com/letyourhomeshine?igsh=NHhINDNkNW1vejJx&utm_source=gr" target="_blank" aria-label="FInstagram"><i class="fab fa-instagram"></i> </a>
+                        <a href="https://pin.it/1TS3Ccskg" target="_blank" aria-label="Pinteresr"><i class="fab fa-pinterest-p"></i> 
+                    </div>
+                </div>
+            </div>
+
+        <div class="footer-bottom">
+            <p>&copy; LetYourHomeshine-Tous droits reservés</p>
+        </div>
+    </footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
