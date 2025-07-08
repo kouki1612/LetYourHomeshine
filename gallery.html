@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerie-LetYourHomeshine</title>
+    <link rel="stylesheet" href="css\gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    
+    
+</head>
+<body>
+    <header class="navbar1">
+        <a href="index.html" class="logo">
+            <img src="Pink and Black Modern Initials Logo Design (2).png" alt="Logo LetYourHomeshine">
+            <span>LetYourHomeshine</span>
+         </a> 
+         <div class="nav-right">
+            <div class="search-bar" id="zone-recherche">
+                <input type="text" placeholder="recherche d'inspirations" id="input-recherche">
+                <button id="btn-recherche" title="Recherche"><i class="fas fa-search"></i> </button>
+            </div>
+            <div class="nav-icons">
+                <a href="favoris.html ">
+                <i class="fas fa-heart" id="btn-favoris" title="Favoris">
+                    <span id="compteur-favoris">0</span>
+                </i>  
+            </a> 
+            </div>
+          </div>
+
+         <nav >
+            <ul class="menu">
+                <li><a href="index.html">Accueil-</a></li>
+                <li><a href="about.html">A propos-</a></li>
+                <li><a href="gallery.html"> Inspirez-vous</a></li>
+            </ul>
+        </nav>
+        <div class="burger" id="burger">
+            ☰
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-section">
+            <h2 class="animated-quote">
+                "La décoration, c'est de rendre la vie plus belle"
+            </h2>
+            <div class="filters">
+                <select id="filter-room">
+                    <option value="all">Toutes les pièces</option>
+                    <option value="salon">Salon</option>
+                    <option value="chambre">Chambre</option>
+                </select>
+                <select id="filter-style">
+                    <option value="all">Tous les styles</option>
+                    <option value="scandinave">scandinave</option>
+                    <option value="moderne">Moderne</option>
+                </select>
+            </div>
+        </section>
+        <div id="gallery" class="gallery-grid"></div>
+    </main>
+      <!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Inspiration zoomée">
+  </div>
+
+    <footer>
+        <footer class="footer">
+            <div class="footer-contenair">
+                <div class="footer-column brand">
+                    <a href="index.html">
+                        <span>LetYourHomeshine</span>
+                    </a>
+                    <p>Design, confort et originalité pour votre intérieur</p>
+                </div>
+        
+                <div class="footer-column socials">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                         
+                        <a href="https://www.instagram.com/letyourhomeshine?igsh=NHhINDNkNW1vejJx&utm_source=gr" target="_blank" aria-label="FInstagram"><i class="fab fa-instagram"></i> </a>
+                        <a href="https://pin.it/1TS3Ccskg" target="_blank" aria-label="Pinteresr"><i class="fab fa-pinterest-p"></i> </a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="footer-bottom">
+            <p>&copy; LetYourHomeshine-Tous droits reservés</p>
+        </div>
+    </footer>
+    <script src="js\script.js"></script>
+    <script src="js\gallery.js"></script>
+</body>
+</html>
